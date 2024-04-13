@@ -1,13 +1,17 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import NavBar from "../../NavBar/NavBar";
-import Header from "../../Header/Header";
+import React from 'react'
+import Footer from '../../Footer/page'
+import ProductList from '../../Ourlatest/page'
+import NavBar from '../../NavBar/NavBar'
+import Header from '../../Header/Header'
 
-export default function Home() {
+export default function page() {
   return (
-    <>
-    <NavBar />
-    <Header />
-    </>
-    );
+    <div>
+      <NavBar></NavBar>
+      <Header></Header>
+      <ProductList></ProductList>
+      <Footer></Footer>
+
+    </div>
+  )
 }
