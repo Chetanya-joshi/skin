@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.navbar{
+    width:100vw;
+    height:100px;
+    background: rgb(191,58,98);
+    background: linear-gradient(90deg, rgba(191,58,98,1) 0%, rgba(148,78,99,1) 52%, rgba(191,58,98,1) 100%);
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.leftside{
+    display:flex;
+    align-items: center;
+}
+
+.leftside span{
+    color:black;
+}
+
+.leftside p{
+    color:white;
+   font-size:50px;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  
+}
+
+.centerside{
+    
+}
+
+.centerside ul{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+    text-transform: uppercase;
+    color:#FFE7E7;
+    font-weight:700;
+    height:100%;
+  
+}
+
+.centerside ul li{
+    cursor:pointer;
+}
+.centerside ul li:hover{
+    color:black;
+}
+
+.rightside{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right:35px;
+}
+
+.loginbtn{
+    border:3px solid #FFE7E7;
+    padding:8px 25px;
+    width:25%;
+    border-radius:30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.icons{
+    color:#FFE7E7;
+}
+
+
+.loginbtn p{
+    color:#FFE7E7;
+    font-size:17px;
+    font-weight:700;
+    text-transform: uppercase;
+}
