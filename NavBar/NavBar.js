@@ -24,7 +24,7 @@ export default function NavBar() {
             </div>
             <div className="rightside">
                 <div className="loginbtn">
-                <FontAwesomeIcon icon={faRightFromBracket} width={25} className="icons"/>
+                <FontAwesomeIcon icon={faRightFromBracket} width={20} className="icons"/>
                     <p>Login</p>
                 </div>
             </div>

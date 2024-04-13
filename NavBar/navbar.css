@@ -5,9 +5,11 @@
     height:100px;
     background: rgb(191,58,98);
     background: linear-gradient(90deg, rgba(191,58,98,1) 0%, rgba(148,78,99,1) 52%, rgba(191,58,98,1) 100%);
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display:flex;
+    justify-content: space-between;
 }
+
+
 
 .leftside{
     display:flex;
@@ -41,6 +43,7 @@
     color:#FFE7E7;
     font-weight:700;
     height:100%;
+    gap:30px;
   
 }
 
@@ -52,25 +55,27 @@
 }
 
 .rightside{
-    display: flex;
+    
+    display:flex;
     align-items: center;
-    justify-content: right;
-    margin-right:35px;
+    
 }
 
 .loginbtn{
     border:3px solid #FFE7E7;
     padding:8px 25px;
-    width:25%;
+    /* width:25%; */
     border-radius:30px;
     text-align: center;
     display: flex;
     align-items: center;
     gap:10px;
+    margin-right:40px;
 }
 
 .icons{
     color:#FFE7E7;
+    
 }
 
 
