@@ -1,6 +1,87 @@
-.banner{
-    /* margin-top:20px; */
-    width:100vw;
-    height:70vh;
-    /* background-color:black; */
+.wrapper {
+  align-items: center;
+  display: flex;
+  height: 58lvh;
+  justify-content: center;
+  width: 100%;
+}
+
+.carousel {
+  aspect-ratio: 16/9;
+  /* border-radius: 1rem; */
+  display: grid;
+  grid-template-areas: "stack";
+  max-height: 25rem;
+  max-width: 100rem;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  display: block;
+  grid-area: stack;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+  width: 100%;
+}
+
+.slide img {
+  animation: panRight 10s ease-in-out infinite;
+  height: 110%;
+  position: absolute;
+  width: 110%;
+}
+
+@keyframes panUp {
+  0% {
+      transform: translateY(0);
+  }
+
+  100% {
+      transform: translateY(-10%);
+  }
+}
+
+@keyframes panDown {
+  0% {
+      transform: translateY(-10%);
+  }
+
+  100% {
+      transform: translateY(0);
+  }
+}
+
+@keyframes panRight {
+  0% {
+      transform: translateX(0);
+  }
+
+  100% {
+      transform: translateX(-10%);
+  }
+}
+
+@keyframes panLeft {
+  0% {
+      transform: translateX(-10%);
+  }
+
+  100% {
+      transform: translateX(0);
+  }
+} 
+
+@media(max-width:850px){
+  .slide img{
+    height:100%;
+  }
+  .wrapper{
+    height:43lvh;
+  }
+  .carousel{
+    max-height:18rem;
+  }
 }
