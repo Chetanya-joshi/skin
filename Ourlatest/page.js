@@ -53,7 +53,7 @@ const ProductCard = ({ product }) => {
 const ProductList = () => {
   return (
     <>
-      <div style={{ textAlign: 'center', padding: '15px', color: '#944E63' }}>
+      <div style={{ textAlign: 'center', padding: '15px', color: '#944E63' ,marginTop:'15px'}}>
         <h3>Our Latest</h3>
       </div>
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
