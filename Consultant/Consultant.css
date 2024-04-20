@@ -1,0 +1,27 @@
+/* styles.css */
+
+.container {
+    background-color: #944E63;
+    margin-top: 15px;
+  }
+  
+  .heading {
+    text-align: center;
+    color: white;
+    padding: 15px;
+  }
+  
+  .circleContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .circle {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+  }
+  
