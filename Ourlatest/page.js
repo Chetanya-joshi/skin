@@ -26,12 +26,12 @@ const products = [
     name: "Serum",
     description: "Description for serum product."
   },
-  {
-    imgSrc: '/sunscreen.jpg',
-    price: "19.00",
-    name: "Sunscreen",
-    description: "Description for sunscreen product."
-  },
+  // {
+  //   imgSrc: '/sunscreen.jpg',
+  //   price: "19.00",
+  //   name: "Sunscreen",
+  //   description: "Description for sunscreen product."
+  // },
  
 ];
 

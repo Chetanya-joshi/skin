@@ -1,8 +1,8 @@
 'use client'
 import React from 'react'
-import Footer from '../../Footer/page'
+import Footer from '../app/Footer/page'
 import ProductList from '../../Ourlatest/page'
-import Products from '../../Products/Products'
+import Products from './Products/Products'
 import NavBar from '../../NavBar/NavBar'
 import Header from '../../Header/Header'
 import ContactForm from '../../ContactUs/page'
@@ -10,14 +10,18 @@ import Consultant from '../../Consultant/page'
 import MainSlider from '../../Mainslider/page'
 import Aboutus from '../../Aboutus/page'
 import Blog from '../../Blog/page'
+import Blognext from '../../Blog/Blognext/page'
+import Productnext from '../app/Productnext/page'
 export default function page() {
   return (
     <div>
 
-      <NavBar></NavBar>
+       <NavBar></NavBar>
       <Header></Header>
       <ProductList></ProductList>
-      <Products />
+      <Products /> 
+      <Productnext></Productnext>
+       <Blognext></Blognext> 
 
       
 
@@ -29,7 +33,7 @@ export default function page() {
       {/* <Blog></Blog> */}
 
        {/* <Blog></Blog>  */}
-       <Footer></Footer> 
+       {/* <Footer></Footer>  */}
 
 
 

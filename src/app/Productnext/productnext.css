@@ -1,0 +1,14 @@
+.banner-1{
+    width:100vw;
+    height:450px;
+    background-color: red;
+}
+.imagediv{
+    height:100% !important;
+    width:100%;
+}
+/* img {
+    max-width: 100% !important;
+    width: auto !important;
+    height: 100% !important;
+  } */
