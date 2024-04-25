@@ -80,3 +80,9 @@
     color:#944E63;
     font-weight:700;
 }
+
+@media(max-width:900px){
+    .showmore{
+        width:25%;
+    }
+}

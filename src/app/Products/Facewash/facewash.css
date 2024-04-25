@@ -63,20 +63,30 @@
 
 
 .showmore{
-    background:transparent;
-    color:#944E63;
-    font-weight:700;
-    border:2px solid #944E63;
-    margin:0px auto;
-    display:flex;
+    background:transparent !important;
+    color:#944E63 !important;
+    font-weight:700 !important;
+    border:2px solid #944E63 !important;
+    margin:0px auto !important;
+    display:flex !important;
+    
     
     
 }
+.btn{
+    width: auto;
+}
 
 .showmore:hover{
-    border:2px solid black;
-    cursor:pointer;
-    background: none;
-    color:#944E63;
-    font-weight:700;
+    border:2px solid black !important;
+    cursor:pointer !important;
+    background: none !important;
+    color:#944E63 !important;
+    font-weight:700 !important;
+}
+
+@media(max-width:900px){
+    .showmore{
+        width:25% !important;
+    }
 }

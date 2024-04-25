@@ -7,7 +7,7 @@ import { facewash } from './facewashjson';
 export default function Facewash() {
     const [data, setData] = useState(facewash);
     const router = useRouter(); // Initialize useRouter hook
-    const slices = data.slice(0,4)
+    const slices = data.slice(0,3)
 
     const handleAddToCart = (item) => {
         // Construct the URL with product detail as query parameter
@@ -27,7 +27,7 @@ export default function Facewash() {
                 {slices.map((item, index) => (
                     <div key={index} className="boxs">
                         <div className="product_img">
-                            <Image src={item.imgSrc} width={420} height={420} style={{ borderRadius: '20px' }} />
+                        <Image src={item.img} width={380} height={380} style={{borderRadius:'20px'}}/>
                         </div>
                         <div className="product_des">{item.productDes}</div>
                         <div className="mrp">MRP</div>

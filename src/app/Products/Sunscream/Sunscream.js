@@ -3,11 +3,13 @@ import React,{useState} from 'react';
 import './sunscream.css';
 import Image from 'next/image';
 import product from '../../../../public/product1.webp';
+import Link from 'next/link';
+// import product from '../../public/product1.webp';
 import { sunscreanjson } from './sunscreenjson';
 export default function Sunscream() {
 
     const [data , setData] = useState(sunscreanjson);
-    const slices= data.slice(0,4)
+    const slices= data.slice(0,3)
 
   return (
     <div className="products mb-5">
@@ -20,9 +22,9 @@ export default function Sunscream() {
             {slices.map((item)=>{
                 return(
                     <>
-                        <div className="boxs">
+                        <div className="boxs mb-5 ">
                 <div className="product_img">
-                <Image src={item.img} width={420} height={420} style={{borderRadius:'20px'}}/>
+              <Link href={`/CartPage?id=${item.id}`}>  <Image src={item.img} width={380} height={380} style={{borderRadius:'20px'}}/></Link>
                 </div>
 
                 <div className="product_des">{item.productDes}</div>

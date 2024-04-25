@@ -4,7 +4,7 @@ export const sunscreanjson  =
     {
       "id": 1,
       "name": "Broad Spectrum Sunscreen SPF 30",
-      'img':'/sunscreen.jpg',
+      'img':"/serum.webp",
       "proddesc": "A broad spectrum sunscreen with SPF 30 protection against UVA and UVB rays. Helps to prevent sunburn and reduce the risk of skin cancer and premature skin aging.",
       "originalprice": 14.99,
       "sellprice": 11.99,
@@ -13,6 +13,8 @@ export const sunscreanjson  =
     {
       "id": 2,
       "name": "Water-Resistant Sport Sunscreen SPF 50",
+      'img':"/serum.webp",
+
       "proddesc": "A water-resistant sport sunscreen with SPF 50 protection for long-lasting sun protection during outdoor activities. Sweat and water-resistant formula stays on even during intense physical activities.",
       "originalprice": 18.49,
       "sellprice": 15.99,
@@ -21,6 +23,8 @@ export const sunscreanjson  =
     {
       "id": 3,
       "name": "Daily Facial Moisturizer with SPF 15",
+      'img':"/serum.webp",
+
       "proddesc": "A daily facial moisturizer with SPF 15 protection to moisturize and protect the skin from sun damage. Lightweight formula absorbs quickly and leaves the skin feeling soft and hydrated.",
       "originalprice": 12.99,
       "sellprice": 9.99,

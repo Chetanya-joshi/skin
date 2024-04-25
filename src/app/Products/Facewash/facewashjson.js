@@ -2,6 +2,8 @@ export const facewash = [
     {
       "id": 1,
       "name": "Refreshing Facial Cleanser",
+      'img':"/serum.webp",
+
       "proddesc": "A refreshing facial cleanser that removes dirt, oil, and impurities without over-drying the skin. Formulated with natural extracts to leave the skin feeling clean and revitalized.",
       "originalprice": 12.99,
       "sellprice": 9.99,
@@ -10,6 +12,8 @@ export const facewash = [
     {
       "id": 2,
       "name": "Oil Control Face Wash",
+      'img':"/serum.webp",
+
       "proddesc": "An oil-control face wash specially designed for oily and acne-prone skin. Helps to control excess oil production and prevent breakouts, leaving the skin feeling fresh and matte.",
       "originalprice": 8.49,
       "sellprice": 6.99,
@@ -18,6 +22,8 @@ export const facewash = [
     {
       "id": 3,
       "name": "Acne-Fighting Daily Wash",
+      'img':"/serum.webp",
+
       "proddesc": "A gentle yet effective daily wash for acne-prone skin. Formulated with salicylic acid to unclog pores and prevent breakouts. Leaves the skin clear, smooth, and refreshed.",
       "originalprice": 14.99,
       "sellprice": 11.99,
